@@ -1,7 +1,7 @@
 #include <stdio.h>
 main(){
     int r,c,i,j;
-    printf("Enter the size of matrix");
+    printf("Enter the size of rows and column of the matrix");
     scanf("%d%d",&r,&c);
     int matrix[r][c];
     printf("\n Enter the values:\n");
